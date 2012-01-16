@@ -1,0 +1,35 @@
+<!doctype html>
+
+<html>
+	<head>
+		<title>Better HTML5 Placeholder</title>
+		<meta charset="utf-8" />
+		<style>
+			input {
+				color: #666;
+			}
+			input.empty-active {
+				color: #999;
+			}
+		</style>
+	</head>
+
+	<body>
+
+		<div id='container'>
+			<form action="#">
+				<p><input type="text" placeholder="name"/></p>
+				<p><input type="text" placeholder="e-mail"/></p>
+				<p><input type="password" placeholder="password"/></p>
+			</form>
+		</div>
+
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+		<script src="better_placeholder.jquery.js"></script>
+		<script>
+			(function () {
+				$('form input').betterPlaceholder();
+			}());
+		</script>
+	</body>
+</html>
