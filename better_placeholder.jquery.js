@@ -1,5 +1,5 @@
 /*
-    betterPlaceholder.js 0.0.1
+    betterPlaceholder.js 0.0.2
 
     Copyright (c) 2012, Wojciech Bednarski
 
@@ -66,23 +66,11 @@
                             $(this).removeClass(settings.emptyActiveClass);
                         }
                     });
-
-
-                    console.log('text'); // add event listener here
                 }
-//                else if (this[i].type === 'password' && placeholderValue !== '') {
-//                    console.log('pass');
-//                }
             }
-
-            console.log('this', this, 'options', options);
-
-        },
-        update: function () {
-
         },
         destroy: function () {
-
+            // TODO
         }
     };
 
